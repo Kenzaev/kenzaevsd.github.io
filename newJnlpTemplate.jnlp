@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://yourserver.com/path/to/" href="launch.jnlp">
+    <information>
+        <title>BankApp</title>
+        <vendor>YourCompany</vendor>
+        <description>Bank Transfer Application</description>
+    </information>
+    <resources>
+        <j2se version="1.8+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="BankApp.jar" main="true"/>
+    </resources>
+    <application-desc main-class="com.example.gradleproject2.BankApp"/>
+</jnlp>
